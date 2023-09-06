@@ -7,7 +7,8 @@ import mmcv
 import torch
 from torchpack.utils.config import configs
 from torchpack import distributed as dist
-from mmcv import Config, DictAction
+# from mmcv import  DictAction
+from mmengine import Config, DictAction
 from mmcv.cnn import fuse_conv_bn
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 from mmcv.runner import get_dist_info, init_dist, load_checkpoint, wrap_fp16_model

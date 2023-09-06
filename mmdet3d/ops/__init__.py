@@ -9,7 +9,6 @@ from mmcv.ops import (
 )
 
 from .ball_query import ball_query
-from .feature_decorator import feature_decorator
 from .furthest_point_sample import (
     Points_Sampler,
     furthest_point_sample,
@@ -32,6 +31,7 @@ from .pointnet_modules import (
     PointSAModuleMSG,
     build_sa_module,
 )
+from .feature_decorator import feature_decorator
 from .roiaware_pool3d import (
     RoIAwarePool3d,
     points_in_boxes_batch,

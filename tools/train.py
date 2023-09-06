@@ -77,7 +77,7 @@ def main():
         model,
         datasets,
         cfg,
-        distributed=True,
+        distributed=False,
         validate=True,
         timestamp=timestamp,
     )
